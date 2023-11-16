@@ -1,4 +1,4 @@
-Idealismus secundum rerum
+Idealismus secundum realismus
 
 :deer: `School of Culture, Media and Society, Waseda Univ.`
 
