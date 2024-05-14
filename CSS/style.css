@@ -1,21 +1,23 @@
 @charset "UTF-8";
 
 @font-face {font-family: "AG-B";
-    src: url("C:/Users/Kusaka/OneDrive/デスクトップ/root_html/fonts/ITCAvantGardePro-Bold.otf") 
+              src: url("/fonts/RedOctober.woff2") format("woff2");
+
+    src: url("/fonts/ITCAvantGardePro-Bold.otf") 
     format("opentype");}
 @font-face{font-family: "AG-XL";
-    src:url("C:/Users/Kusaka/OneDrive/デスクトップ/root_html/fonts/ITCAvantGardePro-XLt.otf" ) 
+    src:url("/fonts/ITCAvantGardePro-XLt.otf" ) 
     format("opentype");}
 @font-face{font-family: "AG-M";
-    src: url("c:/Users/Kusaka/OneDrive/デスクトップ/root_html/fonts/ITCAvantGardePro-Md.otf") 
+    src: url("/fonts/ITCAvantGardePro-Md.otf") 
     format("opentype");}
 
 @font-face{font-family: Hiragino-W3;
-    src:url("C:/Users/Kusaka/OneDrive/デスクトップ/root_html/fonts/ヒラギノ角ゴ Std W3.otf") 
+    src:url("/fonts/ヒラギノ角ゴ Std W3.otf") 
     format("opentype")}
 
 @font-face{font-family: Hiragino-W5;
-    src:url("C:/Users/Kusaka/OneDrive/デスクトップ/root_html/fonts/ヒラギノ角ゴ Std W5.otf") 
+    src:url("/fonts/ヒラギノ角ゴ Std W5.otf") 
     format("opentype")}
 
 body{font-family:"AG-M", "Hiragino-W3", "Yu Gothic UI", sans-serif;
