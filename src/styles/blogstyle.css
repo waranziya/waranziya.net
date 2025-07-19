@@ -59,16 +59,6 @@ p a {
   vertical-align: top;
 } /* Blog記事の注釈 */
 
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 720px; /* bodyと合わせる */
-  margin: 0 auto;   /* 中央配置 */
-  padding: 20px 1rem;
-}
-
 
 @media (max-width: 768px) {
   .navigation {
