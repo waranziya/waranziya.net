@@ -1,0 +1,26 @@
+---
+// BaseLayout.astro
+const { title } = Astro.props;
+---
+
+<body>
+    <header>
+      <nav>
+        <span class="logo"><a href="/">waranziya</a></span>
+      </nav>
+      <nav class="navigation">
+        <div class="nav-item"><a href="/about">about</a></div>
+        <div class="nav-item"><a href="/blog">blog</a></div>
+      </nav>
+    </header>
+
+    <!-- ページごとの内容 -->
+    <main>
+      <slot />
+    </main>
+
+    <footer>
+      <p>&copy; 2025 waranziya</p>
+    </footer>
+  </body>
+</html>

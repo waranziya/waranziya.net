@@ -1,0 +1,28 @@
+---
+import Baselayout from "../components/head.astro"; 
+import "../styles/style.css"
+---
+
+<Baselayout>
+  <body>
+    <main id="Basemain">
+      <div class="BaseIntro">
+        <div id="star">✦</div>
+        <div class="name">
+          <span id="name-W">W</span><span class="name-A">A</span>RANZIY<span class="name-A">A</span>
+        </div>
+        <div class="greeting">Wir müssen wissen,</div>
+        <div class="greeting">Wir werden wissen!</div>
+
+        <div class="PressEnter">/* Enter */</div>
+      </div>
+      
+      <script is:inline>
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter') {
+          window.location.href = '/about'; // 遷移先のパス
+        }});
+      </script>
+    </main>
+  </body>
+</BaseLayout>

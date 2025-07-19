@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "AG-Bold";
+  src: url("../assets/ITCAvantGardePro-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "AG-XL";
+  src: url("../assets/ITCAvantGardePro-XLt.otf") format("opentype");
+}
+@font-face {
+  font-family: "AG-M";
+  src: url("../assets/ITCAvantGardePro-Md.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Hiragino-W3;
+  src: url("../assets/ヒラギノ角ゴ Std W3.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Hiragino-W5;
+  src: url("../assets/ヒラギノ角ゴ Std W5.otf") format("opentype");
+}
+
+.ibm-plex-sans-jp-regular {
+  font-family: "IBM Plex Sans JP", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "p22-underground","IBM Plex Sans JP", "AG-M", "Hiragino-W3", "Yu Gothic UI", sans-serif;
+  color: #202225;
+  background-color: #F2EFEC;
+  font-size: 17px;
+  line-height: 1.4;
+  text-align: justify;
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 0 1rem;
+} 
+
+h2{
+  font-family:"p22-underground", "IBM Plex Sans JP", "Hiragino-W3", "Yu Gothic UI", sans-serif;}
+
+ul {
+  list-style: none;
+  padding-left: 1.2em;
+}
+
+ul li::before {
+  content: '✦';
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.2em;
+}
+
+li {
+  line-height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #1d273b;
+}
+
+li a {
+  text-decoration: underline;
+  text-decoration-color: #202225;
+  text-decoration-style: solid;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 720px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: "p22-underground";
+}
+
+.navigation {
+  text-align: justify;
+  display: flex;
+}
+
+.nav-item {
+  margin: 20px 10px 20px 10px;
+}
+
+main {
+  width: 100%;
+  position:relative;
+}
+
+#Basemain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  flex-direction: column;
+  max-width: 720px; 
+  margin: 50px auto 100px auto; 
+  padding: 0 1rem; 
+}
+
+.BaseIntro {
+  width: 100%; 
+  display: flex; 
+  flex-direction: column;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#star{font-size:clamp(60px, 15vw, 100px);}
+
+.greeting {
+  color: #153829;
+  font-family: "p22-underground";
+  font-variant-ligatures: discretionary-ligatures;
+  font-size: clamp(24px, 6vw, 40px);;
+  font-weight:700;
+}
+
+.name {
+  color: #E01310;
+  font-family: "AG-Bold";
+  font-variant-ligatures: discretionary-ligatures;
+  font-size: clamp(60px, 15vw, 110px);
+  font-feature-settings: "palt";
+}
+
+#name-W {
+  -moz-font-feature-settings: "salt" 2;
+  -webkit-font-feature-settings: "salt" 2;
+  font-feature-settings: "salt" 2;
+  letter-spacing: -0.25em;
+}
+
+.name-A {
+  -moz-font-feature-settings: "salt";
+  -webkit-font-feature-settings: "salt";
+  font-feature-settings: "salt";
+}
+
+.PressEnter{
+  font-family: "p22-underground";
+  font-weight:400;
+}
+
+code {
+  display: inline-block;
+  padding: 0.1em 0.2em; /* 文字周りの余白 */
+  color: #1d273b; /* 文字色 */
+  background-color: #d9d9d9; /* 背景色 */
+  border-radius: 7px; /* 角丸 */
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+#wgirl{
+  display: block;
+  margin: 0 auto;
+  width: clamp(150px, 50vw, 200px);
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+footer {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 1rem;
+}
